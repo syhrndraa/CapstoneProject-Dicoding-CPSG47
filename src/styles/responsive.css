@@ -1,0 +1,79 @@
+.headline {
+    display: grid;
+    grid-row-gap: 16px;
+    margin: 20px;
+}
+.footer-grid {
+    display: grid;
+    grid-row-gap: 16px;
+    margin: 20px 10px;
+}
+@media screen and (min-width: 555px) {
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+  
+}
+@media screen and (max-width: 619px) {
+    .nav {
+        z-index: 10;
+        background-color: #fff;
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        margin-top: 15px;
+
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(-100%, 0);
+        transform: translate(-100%, 0);
+
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.3s ease;
+    }
+    .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    .nav__item {
+        display: list-item;
+        border-bottom: 1px solid #E0E0E0;
+        width: 100%;
+        text-align: left;
+    }
+    .nav__list {
+        background-color: #fff;
+    }
+}
+@media screen and (min-width: 620px) {
+    .header__menu {
+        display: none;
+    }
+    .nav a {
+        padding: 0.7em;
+    }
+    .headline {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 720px) {
+    .nav a {
+        font-size: 16px;
+        padding: 0.6em;
+    }
+}
+@media screen and (min-width: 795px) {
+    .footer-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+}
+@media screen and (min-width: 1200px) {
+    
+}
