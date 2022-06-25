@@ -6,7 +6,9 @@ const CarList = {
         return `
             <div>
                 <h1>Our Products</h1>
-                <div class="post" id="product-list"></div>
+                <div class="container">
+                    <div class="post" id="product-list"></div>
+                </div>
             </div>
         `;
     },
