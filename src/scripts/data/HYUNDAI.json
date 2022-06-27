@@ -1,0 +1,361 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "nama": "Palisade",
+            "description": "Eksplorasi di berbagai medan dapat menuntun pada penjelajahan yang menakjubkan",
+            "image": "palisade.png",
+            "jarak": 203,
+            "tinggi": 1750,
+            "panjang": 4980,
+            "sumbu": 2900,
+            "lebar": 1975,
+            "cc": 2199,
+            "tangki": 71,
+            "cyl": 4,
+            "tenaga": "147 kW (200 PS) / 3.800 rpm",
+            "torsi": "440 Nm (45,0 kgfm) / 1.750~2.750 rpm",
+            "velg": "245/60",
+            "materialVelg": "18-inch alloy wheels",
+            "imagePath": [
+                {
+                    "path": "palisade/pal1.jpg"
+                },
+                {
+                    "path": "palisade/pal2.jpg"
+                },
+                {
+                    "path": "palisade/pal3.jpg"
+                },
+                {
+                    "path": "palisade/pal4.jpg"
+                },
+                {
+                    "path": "palisade/pal5.jpg"
+                },
+                {
+                    "path": "palisade/pal6.jpg"
+                }
+            ],
+            "models": [
+                {
+                    "modelId": 1,
+                    "model": "Prime",
+                    "tagHarga": "Rp. 795.000.000,00",
+                    "harga": 795000000
+                },
+                {
+                    "modelId": 2,
+                    "model": "Signature",
+                    "tagHarga": "Rp. 907.000.000,00",
+                    "harga": 907000000
+                },
+                {
+                    "modelId": 3,
+                    "model": "Signature AWD",
+                    "tagHarga": "Rp. 1.045.000.000,00",
+                    "harga": 1045000000
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nama": "New Staria",
+            "description": "Bagi Anda yang selalu membuka ruang demi kesuksesan dimasa mendatang",
+            "image": "newSatria.png",
+            "jarak": 186,
+            "tinggi": 1990,
+            "panjang": 5253,
+            "sumbu": 3273,
+            "lebar": 1997,
+            "cc": 2199,
+            "tangki": 75,
+            "cyl": 4,
+            "tenaga": "177 ps/3.800 rpm",
+            "torsi": "44 Kg.m/1.500 - 2.500 rpm",
+            "velg": "235/55",
+            "materialVelg": "18-inch alloy wheels",
+            "imagePath": [
+                {
+                    "path": "staria/staria1.jpg"
+                },
+                {
+                    "path": "staria/staria2.jpg"
+                },
+                {
+                    "path": "staria/staria3.jpg"
+                },
+                {
+                    "path": "staria/staria4.jpg"
+                },
+                {
+                    "path": "staria/staria5.jpg"
+                },
+                {
+                    "path": "staria/staria6.jpg"
+                },
+                {
+                    "path": "staria/staria7.jpg"
+                }
+            ],
+            "models": [
+                {
+                    "modelId": 1,
+                    "model": "Signature 7 Seat",
+                    "tagHarga": "Rp. 1.028.000.000,00",
+                    "harga": 1028000000
+                },
+                {
+                    "modelId": 2,
+                    "model": "Signature 9 Seat",
+                    "tagHarga": "Rp. 896.000.000,00",
+                    "harga": 896000000
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nama": "Kona Electric",
+            "description": "KONA Electric Style yang percaya diri dan unik membedakannya dari yang lain",
+            "image": "kona.png",
+            "jarak": 158,
+            "tinggi": 1555,
+            "panjang": 4180,
+            "sumbu": 2600,
+            "lebar": 1800,
+            "cc": 2199,
+            "tangki": 71,
+            "cyl": 4,
+            "tenaga": "147 kW (200 PS) / 3.800 rpm",
+            "torsi": "440 Nm (45,0 kgfm) / 1.750~2.750 rpm",
+            "velg": "245/60",
+            "materialVelg": "18-inch alloy wheels",
+            "imagePath": [
+                {
+                    "path": "koneElectric/kone1.jpg"
+                },
+                {
+                    "path": "koneElectric/kone2.jpg"
+                },
+                {
+                    "path": "koneElectric/kone3.jpg"
+                },
+                {
+                    "path": "koneElectric/kone4.jpg"
+                },
+                {
+                    "path": "koneElectric/kone5.jpg"
+                }
+            ],
+            "models": [
+                {
+                    "modelId": 1,
+                    "model": "EV Signature",
+                    "tagHarga": "Rp. 742.000.000,00",
+                    "harga": 742000000
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nama": "Ioniq 5",
+            "description": "Untuk menjadi yang terdepan di era baru kendaraan bebas emisi, ramah lingkungan",
+            "image": "ionic55.png",
+            "jarak": 160,
+            "tinggi": 1605,
+            "panjang": 4635,
+            "sumbu": 3000,
+            "lebar": 1890,
+            "cc": 0,
+            "tangki": 0,
+            "cyl": 0,
+            "tenaga": "170 ps(125 kw)",
+            "torsi": "350 nm",
+            "velg": "Front : 235/55 R19, Rear : 235/55 R19",
+            "materialVelg": "19-inch alloy wheels",
+            "imagePath": [
+                {
+                    "path": "ionic5/ionic1.jpg"
+                },
+                {
+                    "path": "ionic5/ionic2.jpg"
+                },
+                {
+                    "path": "ionic5/ionic3.jpg"
+                },
+                {
+                    "path": "ionic5/ionic4.jpg"
+                },
+                {
+                    "path": "ionic5/ionic5.jpg"
+                },
+                {
+                    "path": "ionic5/ionic6.jpg"
+                },
+                {
+                    "path": "ionic5/ionic7.jpg"
+                },
+                {
+                    "path": "ionic5/ionic8.jpg"
+                },
+                {
+                    "path": "ionic5/ionic9.jpg"
+                }
+            ],
+            "models": [
+                {
+                    "modelId": 1,
+                    "model": "Prime Standard",
+                    "tagHarga": "Rp. 718.000.000,00",
+                    "harga": 718000000
+                },
+                {
+                    "modelId": 2,
+                    "model": "Prime Long Range",
+                    "tagHarga": "Rp. 759.000.000,00",
+                    "harga": 759000000
+                },
+                {
+                    "modelId": 3,
+                    "model": "Signature Standard",
+                    "tagHarga": "Rp. 779.000.000,00",
+                    "harga": 779000000
+                },
+                {
+                    "modelId": 4,
+                    "model": "Signature Long Range",
+                    "tagHarga": "Rp. 829.000.000,00",
+                    "harga": 829000000
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "nama": "Santa FE",
+            "description": "Masuki mobil keluarga yang sempurna, ruang untuk kebersamaan, dan ruang yang membuat Anda tetap aman.",
+            "image": "santaFE.png",
+            "jarak": 176,
+            "tinggi": 1710,
+            "panjang": 4785,
+            "sumbu": 2765,
+            "lebar": 1900,
+            "cc": 2497,
+            "tangki": 67,
+            "cyl": 4,
+            "tenaga": "180 ps/6.000 rpm",
+            "torsi": "232 Nm/4.000 rpm",
+            "velg": "235/60",
+            "materialVelg": "18-inch alloy wheels",
+            "imagePath": [
+                {
+                    "path": "santaFE/santaFE1.jpg"
+                },
+                {
+                    "path": "santaFE/santaFE2.jpg"
+                },
+                {
+                    "path": "santaFE/santaFE3.jpg"
+                },
+                {
+                    "path": "santaFE/santaFE4.jpg"
+                },
+                {
+                    "path": "santaFE/santaFE5.jpg"
+                },
+                {
+                    "path": "santaFE/santaFE6.jpg"
+                }
+            ],
+            "models": [
+                {
+                    "modelId": 1,
+                    "model": "Gesoline 2.5 Prime",
+                    "tagHarga": "Rp. 605.000.000,00",
+                    "harga": 605000000
+                },
+                {
+                    "modelId": 2,
+                    "model": "Gesoline 2.5 Signature",
+                    "tagHarga": "Rp. 684.000.000,00",
+                    "harga": 684000000
+                },
+                {
+                    "modelId": 3,
+                    "model": "Diesel 2.2 Prime",
+                    "tagHarga": "Rp. 665.000.000,00",
+                    "harga": 665000000
+                },
+                {
+                    "modelId": 4,
+                    "model": "Diesel 2.2 Signature",
+                    "tagHarga": "Rp. 735.000.000,00",
+                    "harga": 735000000
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "nama": "New Creta",
+            "description": "Didesain untukmu yang selalu jeli melihat sisi terbaik dari segala tantangan.",
+            "image": "newCreata.png",
+            "jarak": 0,
+            "tinggi": 1630,
+            "panjang": 4315,
+            "sumbu": 2610,
+            "lebar": 1790,
+            "cc": 1497,
+            "tangki": 40,
+            "cyl": 4,
+            "tenaga": "84.4 kW (115 PS) / 6 300 r/min",
+            "torsi": "143.8 Nm (14.7 kgm) / 4 500 r/min",
+            "velg": "215/60",
+            "materialVelg": "17-inch alloy wheels",
+            "imagePath": [
+                {
+                    "path": "creta/creta1.jpg"
+                },
+                {
+                    "path": "creta/creta2.jpg"
+                },
+                {
+                    "path": "creta/creta3.jpg"
+                },
+                {
+                    "path": "creta/creta4.jpg"
+                }
+            ],
+            "models": [
+                {
+                    "modelId": 1,
+                    "model": "Active MT",
+                    "tagHarga": "Rp. 281.500.000,00",
+                    "harga": 281500000
+                },
+                {
+                    "modelId": 2,
+                    "model": "Trend MT",
+                    "tagHarga": "Rp. 301.500.000,00",
+                    "harga": 301500000
+                },
+                {
+                    "modelId": 3,
+                    "model": "Trend IVT",
+                    "tagHarga": "Rp. 322.000.000,00",
+                    "harga": 322000000
+                },
+                {
+                    "modelId": 4,
+                    "model": "Style IVT",
+                    "tagHarga": "Rp. 362.000.000,00",
+                    "harga": 362000000
+                },
+                {
+                    "modelId": 5,
+                    "model": "Prime IVT",
+                    "tagHarga": "Rp. 401.000.000,00",
+                    "harga": 401000000
+                }
+            ]
+        }
+    ]
+}

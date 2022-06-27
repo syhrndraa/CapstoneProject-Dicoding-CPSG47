@@ -29,6 +29,24 @@ class App {
         event.preventDefault();
         document.querySelector('main').focus();
     });
+
+    const calButton = document.querySelector('#priceCheck');
+    calButton.addEventListener('click', (event) => {
+        event.preventDefault();
+        let result = 0;
+        const price = document.querySelector(".car-type");
+        const dp = document.querySelector("#inputDP");
+        const creditYear = document.querySelector("#inputKredit");
+        result = (parseInt(price.value)-parseInt(dp.value))/(parseInt(creditYear.value)*12);
+        const rupiah = (number) =>{
+          return new Intl.NumberFormat("id-ID", {
+            style: "currency",
+            currency: "IDR"
+          }).format(number);
+        }
+        document.querySelector("#total_amount").value = rupiah(parseInt(result));
+        // console.log(result);
+    });
   }
 }
    
