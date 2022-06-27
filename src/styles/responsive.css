@@ -68,6 +68,9 @@
     }
 }
 @media screen and (min-width: 620px) {
+    .calcTable{
+        max-width: 600px;
+    }
     .header__menu {
         display: none;
     }

@@ -130,6 +130,71 @@ const createCarDetailTemplate = (car) => `
             </table>
         </center>
     </div>
+    <div class="calculator">
+    <center>
+    <h4 style:"font-weight: bold">Kalkulator Kredit</h4>
+    <form>
+    <table class="table table-striped calcTable">
+        <tr>
+            <div>
+                <td><label for="exampleInputEmail1" class="form-label">Jenis Mobil</label></td>
+                <td>:</td>
+                <td>${car.nama}</td>
+              </div>
+        </tr>
+        <tr>
+            <div>
+                <td><label for="exampleInputEmail1" class="form-label">Tipe Mobil</label></td>
+                <td>:</td>
+                <td>
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                <option selected>Choose...</option>
+                ${car.models
+                    .map(
+                        (type) => `
+                            <option value="${type.tagHarga}">${type.model}</option>
+                        `,
+                    )
+                }
+                </select></td>
+              </div>
+        </tr>
+        <tr>
+            <div>
+                <td><label for="exampleInputEmail1" class="form-label">DP</label></td>
+                <td>:</td>
+                <td><input type="number" class="form-control" id="inputDP" onblur="getAmount()"></td>
+              </div>
+        </tr>
+        <tr>
+            <div>
+                <td><label for="exampleInputEmail1" class="form-label">Kredit/tahun</label></td>
+                <td>:</td>
+                <td><input type="number" class="form-control" id="inputKredit"  onblur="getAmount()"></td>
+              </div>
+        </tr>
+        <tr>
+            <td><p>Berikut harga untuk cicilan anda/bulan</p></td>
+            <td>Rp.</td>
+            <td><input type="text" id="total_amount" class="form-control" disabled> </td>
+        </tr>
+    </table>
+
+    <script>
+    import $ from "jquery";
+    function getAmount(){
+        var harga = 200000000;
+        var dp = $('#inputDP').val();
+        var kredit = $('#inputKredit').val();
+        $('#total_amount').val((harga-dp)/(kredit*12));
+    }
+    </script>
+
+    
+
+  </form>
+  </center>
+    </div>
     </article>
 `;
 

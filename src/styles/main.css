@@ -180,3 +180,7 @@ footer {
 .model-table {
   max-width: 600px;
 }
+.calculator{
+  margin-top: 50px;
+  font-weight: bold;
+}
