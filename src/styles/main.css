@@ -1,6 +1,7 @@
 :root {
     --first-color: #002b5e;
     --second-color: #041e42;
+    --third-color: #003468;
   }
   
 * {
@@ -128,14 +129,30 @@ nav {
     text-decoration: underline;
     color: #000;
 }
-.headling-img {
-  width: 100%;
-}
-
 main {
     width: 100%;
     margin: 0 auto;
 }
+.card-headline {
+  color: var(--third-color);
+  border: 0px;
+}
+.body-headline {
+  padding: 3rem 0rem 1rem 0rem;
+}
+.headline-img {
+  width: 85%;
+}
+.btn-card {
+  background-color: var(--third-color);
+  color: #fff;
+}
+/* .carousel-main {
+  height: 559px;
+}
+.carousel-main img {
+  height: 600px;
+} */
 footer {
     background: var(--first-color);
     padding: 20px 20px;
@@ -153,4 +170,17 @@ footer {
   margin-top: 15px;
   min-height: 44px;
   min-width: 44px;
+}
+.carousel-dtl {
+  max-width: 900px;
+}
+.specs-table {
+  max-width: 900px;
+}
+.model-table {
+  max-width: 600px;
+}
+.calculator{
+  margin-top: 50px;
+  font-weight: bold;
 }
