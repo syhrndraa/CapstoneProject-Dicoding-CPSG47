@@ -88,6 +88,10 @@
     .headline-img {
         width: 100%;
     }
+    .gambar-tengah{
+      margin-top: 20px;
+    }
+    
 }
 @media screen and (min-width: 720px) {
     .nav a {

@@ -8,7 +8,7 @@ const HomeCatalogue = {
             <div class="headline">
                 <center>
                     <div class="headline-img">
-                        <img src="ionic.png" class="d-block w-100"></img>
+                        <img src="ionic.png" class="d-block w-100 gambar-tengah" alt="gambar mobil"></img>
                     </div>
                 </center>
                 <div class="col-70">
@@ -17,13 +17,13 @@ const HomeCatalogue = {
                             <h4 class="card-title fw-bolder mb-3">DEALERHYUNDAIOFFICIAL.COM</h4>
                             <p class="card-text fw-bolder">Dealer Hyundai Jakarta Menawarkan Harga & Pelayanan Terbaik</p>
                             <p class="card-text">Dapatkan Pengalaman Membeli Mobil Hyundai di Dealer Terbaik dan Sales Berpengalaman</p>
-                            <a href="#" class="btn btn-card mt-3 btn-sm">Request Test Drive</a>
+                            <a href="#" class="btn btn-card mt-3 btn-lg">Request Test Drive</a>
                         </div>
                     </div>
                 </div>
             </div> 
             <div>
-                <h1>Our Products</h1>
+                <h1 class="title-page">Our Products</h1>
                 <div>
                     <div class="post" id="product-list"></div>
                 </div>

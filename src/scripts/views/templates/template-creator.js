@@ -6,7 +6,7 @@ const createCarItemTemplate = (car) => `
             <div class="description">
             <p class="card-text">${car.description}</p>
             </div>
-            <a href="${`/#/detail/${car.id}`}" class="btn btn-primary">Details</a>
+            <a href="${`/#/detail/${car.id}`}" class="btn btn-card mt-3 btn-detail">Details</a>
         </div>
     </article>
 `;
@@ -23,7 +23,7 @@ const createCarDetailTemplate = (car) => `
                 .map(
                     (image) => `
                     <div class="carousel-item">
-                        <img src="${image.path}" class="d-block w-100" alt="">
+                        <img src="${image.path}" class="d-block w-100" alt="gambar ${image.path}">
                     </div>
                     `,
                 ).join("")
@@ -137,14 +137,14 @@ const createCarDetailTemplate = (car) => `
         <table class="table table-striped calcTable">
             <tr>
                 <div>
-                    <td><label for="exampleInputEmail1" class="form-label">Jenis Mobil</label></td>
+                    <td><label for="namaMobil" class="form-label">Jenis Mobil</label></td>
                     <td>:</td>
                     <td>${car.nama}</td>
                 </div>
             </tr>
             <tr>
                 <div>
-                    <td><label for="exampleInputEmail1" class="form-label">Tipe Mobil</label></td>
+                    <td><label for="tipeMobil" class="form-label">Tipe Mobil</label></td>
                     <td>:</td>
                     <td>
                     <select class="custom-select my-1 mr-sm-2 car-type" id="inlineFormCustomSelectPref">
@@ -161,16 +161,16 @@ const createCarDetailTemplate = (car) => `
             </tr>
             <tr>
                 <div>
-                    <td><label for="exampleInputEmail1" class="form-label">DP</label></td>
+                    <td><label for="inputDP" class="form-label">DP</label></td>
                     <td>:</td>
-                    <td><input type="number" class="form-control" id="inputDP" onblur="getAmount()"></td>
+                    <td><input type="number" class="form-control" id="inputDP"></td>
                 </div>
             </tr>
             <tr>
                 <div>
-                    <td><label for="exampleInputEmail1" class="form-label">Kredit/tahun</label></td>
+                    <td><label for="inputKredit" class="form-label">Kredit/tahun</label></td>
                     <td>:</td>
-                    <td><input type="number" class="form-control" id="inputKredit"  onblur="getAmount()"></td>
+                    <td><input type="number" class="form-control" id="inputKredit""></td>
                 </div>
             </tr>
             <tr>
@@ -179,7 +179,7 @@ const createCarDetailTemplate = (car) => `
                 <td><input type="text" id="total_amount" class="form-control" disabled> </td>
             </tr>
         </table>
-        <button class="btn btn-dark" type="submit" id="priceCheck">Cek Harga</button>
+        <button class="btn btn-dark btn-detail" type="submit" id="priceCheck">Cek Harga</button>
         </form>
         </center>
     </div>

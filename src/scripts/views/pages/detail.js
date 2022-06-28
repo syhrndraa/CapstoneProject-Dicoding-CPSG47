@@ -6,7 +6,7 @@ const HomeCatalogue = {
     async render() {
         return `
             <div>
-                <h1>Detail</h1>
+                <h1 class="title-page">Detail</h1>
                 <div class="container">
                     <div class="" id="product-detail"></div>
                 </div>

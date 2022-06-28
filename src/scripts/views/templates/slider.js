@@ -8,24 +8,24 @@ const sliderTemplate = `
         </div>
         <div class="carousel-inner">
         <div class="carousel-item active carousel-main" data-bs-interval="3000">
-            <img src="heros/hero-image1.jpg" class="d-block w-100" alt="...">
+            <img src="heros/hero-image1.jpg" class="d-block w-100" alt="gambar carousell">
             <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>Perusahaan Mobil Nomor 1 di Dunia</h5>
+            <p>Kami telah berdedikasi untuk mengembangkan mobil terbaik</p>
             </div>
         </div>
         <div class="carousel-item carousel-main" data-bs-interval="3000">
-            <img src="heros/hero-image2.jpg" class="d-block w-100" alt="...">
+            <img src="heros/hero-image2.jpg" class="d-block w-100" alt="gambar carousell">
             <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5>Ramah Lingkungan</h5>
+            <p>Menciptakan mobil ramah lingkungan merupakan tujuan kami</p>
             </div>
         </div>
         <div class="carousel-item carousel-main">
-            <img src="heros/hero-image3.jpg" class="d-block w-100" alt="...">
+            <img src="heros/hero-image3.jpg" class="d-block w-100" alt="gambar carousell">
             <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>Pelayanan Terbaik</h5>
+            <p>Kami tersebar di seluruh penjuru Indonesia, dapatkan pelayanan kelas dunia dari kami</p>
             </div>
         </div>
         </div>
