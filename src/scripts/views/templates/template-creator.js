@@ -170,7 +170,7 @@ const createCarDetailTemplate = (car) => `
                 <div>
                     <td><label for="inputKredit" class="form-label">Kredit/tahun</label></td>
                     <td>:</td>
-                    <td><input type="number" class="form-control" id="inputKredit""></td>
+                    <td><input type="number" class="form-control" id="inputKredit" min="1" max="7" placeholder="1 - 7"></td>
                 </div>
             </tr>
             <tr>
