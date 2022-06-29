@@ -130,13 +130,13 @@ nav {
     color: #000;
 }
 
-.menu-malasngoding ul {
+.menu-products ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-.menu-malasngoding li a {
+.menu-products li a {
   color: white;
   text-align: right;
   text-decoration: none;
