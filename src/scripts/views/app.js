@@ -27,7 +27,7 @@ class App {
     const skipLinkElem = document.querySelector('.skip-link');    
     skipLinkElem.addEventListener('click', (event) => {      
         event.preventDefault();
-        document.querySelector('main').focus();
+        document.querySelector('#maincontent').focus();
     });
 
     const calButton = document.querySelector('#priceCheck');
