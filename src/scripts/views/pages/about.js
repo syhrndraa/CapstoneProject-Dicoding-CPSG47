@@ -10,7 +10,7 @@ const About = {
               <h2>-- Hyundai Motors Indonesia</h2>
           </div>
       </div>
-      <div class="p-5 mb-4 bg-light rounded-3" id="maincontent">
+      <div class="p-5 mb-4 bg-light rounded-3" id="maincontent" tabindex="0">
         <div class="row">
             <div class="col-lg">
             <h1 class="display-5 fw-bold">Lokasi</h1>

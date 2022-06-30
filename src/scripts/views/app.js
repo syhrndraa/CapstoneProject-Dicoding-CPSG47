@@ -29,6 +29,11 @@ class App {
         event.preventDefault();
         document.querySelector('#maincontent').focus();
     });
+    skipLinkElem.addEventListener('keypress', (event) => {
+      if (event.key === 'Enter') {
+        document.querySelector('#maincontent').focus();
+      }
+    });
 
     const calButton = document.querySelector('#priceCheck');
     calButton.addEventListener('click', (event) => {
