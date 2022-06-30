@@ -237,3 +237,69 @@ footer {
   margin-top: 50px;
   font-weight: bold;
 }
+.title-page {
+  text-align: center;
+}
+.youtube-container {
+  width: 100%;
+  max-width: 700px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 380px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.hero__inner {
+  margin: 0 auto;
+  max-width: 800px;
+}
+.hero__inner h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: right;
+  padding-top: 10px;
+  margin-right: 50px;
+}
+.hero__tagline {
+  color: #fff;
+  margin-top: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 11px;
+  font-weight: 300;
+  text-align: justify;
+}
+.footer-3 {
+  text-align: right;
+}
+.footer-1 a {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  margin: 0 10px;
+  margin-top: 7px;
+  min-height: 44px;
+  min-width: 44px;
+}
+.list-footer {
+  list-style-type: none;
+}
+.car-products {
+  margin-top: 20px;
+}
+.email-contact a, .whatsapp-contact a {
+  display: inline-block;
+  font-size: 23px;
+  color: #fff;
+  min-height: 44px;
+  min-width: 44px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Times New Roman';
+  text-decoration: none;
+  padding: 2px;
+}

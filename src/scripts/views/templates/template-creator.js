@@ -6,12 +6,12 @@ const createCarItemTemplate = (car) => `
             <div class="description">
             <p class="card-text">${car.description}</p>
             </div>
-            <a href="${`/#/detail/${car.id}`}" class="btn btn-card mt-3 btn-detail">Details</a>
+            <a href="${`#/detail/${car.id}`}" class="btn btn-card mt-3 btn-detail">Details</a>
         </div>
     </article>
 `;
 const createCarDetailTemplate = (car) => `
-    <article tabindex="0" class="detail-car">
+    <article tabindex="0" class="detail-car" id="maincontent">
     <center>
         <h2>${car.nama}</h2>
         <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-dtl" data-bs-ride="carousel">
@@ -39,7 +39,7 @@ const createCarDetailTemplate = (car) => `
             </button>
         </div>
     </center>
-    <div>
+    <div tabindex="0">
         <center>
             <table class="table specs-table">
                 <thead>
@@ -106,7 +106,7 @@ const createCarDetailTemplate = (car) => `
             </table>
         </center>
     </div>
-    <div>
+    <div tabindex="0">
         <center>
             <table class="table table-striped table-hover model-table">
                 <thead>
@@ -130,7 +130,7 @@ const createCarDetailTemplate = (car) => `
             </table>
         </center>
     </div>
-    <div class="calculator">
+    <div class="calculator" tabindex="0">
         <center>
         <h4 style:"font-weight: bold">Kalkulator Kredit</h4>
         <form>
