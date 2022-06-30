@@ -1,0 +1,121 @@
+.headline {
+    display: grid;
+    grid-row-gap: 16px;
+    margin: 20px;
+}
+.post {
+    display: grid;
+    grid-row-gap: 16px;
+    grid-column-gap: 30px;
+    margin: 20px 10px;
+}
+.grid-model {
+    display: grid;
+}
+.footer-grid {
+    display: grid;
+    grid-row-gap: 16px;
+    margin: 20px 10px;
+}
+@media screen and (min-width: 555px) {
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+  
+}
+@media screen and (max-width: 619px) {
+    .nav {
+        z-index: 10;
+        background-color: #fff;
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        margin-top: 15px;
+
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(-100%, 0);
+        transform: translate(-100%, 0);
+
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.3s ease;
+    }
+    .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    .nav__item {
+        display: list-item;
+        border-bottom: 1px solid #E0E0E0;
+        width: 100%;
+        text-align: left;
+    }
+    .nav__list {
+        background-color: #fff;
+    }
+    /* .carousel-main img {
+        height: 300px;
+    }
+    .carousel-main {
+        height: 259px;
+    } */
+    .btn-card {
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 620px) {
+    .calcTable{
+        max-width: 600px;
+    }
+    .header__menu {
+        display: none;
+    }
+    .nav a {
+        padding: 0.7em;
+    }
+}
+@media screen and (min-width: 690px) {
+    .post {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .headline {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .headline-img {
+        width: 100%;
+    }
+    .gambar-tengah{
+      margin-top: 20px;
+    }
+    
+}
+@media screen and (min-width: 720px) {
+    .nav a {
+        font-size: 16px;
+        padding: 0.6em;
+    }
+}
+@media screen and (min-width: 795px) {
+    .footer-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .post {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 900px) {
+    .headline-img {
+        width: 85%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    
+}
