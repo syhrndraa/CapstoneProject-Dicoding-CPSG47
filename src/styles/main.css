@@ -1,0 +1,305 @@
+:root {
+  --first-color: #002b5e;
+  --second-color: #041e42;
+  --third-color: #003468;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.skip-link {
+  position: absolute;
+  top: -44px;
+  left: 0;
+  background-color: #bf1722;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  height: 44px;
+}
+.skip-link:focus {
+  top: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.3;
+}
+
+/* ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  header {
+    background: #aeaeaa;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+header .hyundai-logo {
+    margin-left: 10px;
+}
+  
+  header .logo {
+    width: 256px;
+    height: 35px;
+  }
+  
+  header nav .nav-menu li {
+    margin: 0 20px;
+  }
+  
+  header nav .nav-menu .nav-link {
+    font-size: 20px;
+    color: var(--first-color);
+    cursor: pointer;
+  } */
+
+header {
+  background: #7995b0;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 80px;
+}
+header .hyundai-logo {
+  margin-left: 10px;
+  position: absolute;
+}
+header .logo {
+  width: 256px;
+  height: 35px;
+}
+.header__menu {
+  font-size: 32px;
+  margin: auto;
+  display: block;
+  width: 44px;
+  margin-right: 15px;
+  min-height: 44px;
+  text-decoration: none;
+  color: var(--first-color);
+}
+nav {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+.nav__item {
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: right;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+.nav a {
+  display: inline-block;
+  padding: 1.3em;
+  text-decoration: none;
+  color: var(--first-color);
+  font-size: 13px;
+  font-weight: bolder;
+}
+.nav a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.menu-products ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.menu-products li a {
+  color: white;
+  text-align: right;
+  text-decoration: none;
+}
+li.dropdown {
+  display: inline-block;
+  color: var(--third-color);
+}
+.dropdown:hover .isi-dropdown {
+  display: block;
+}
+.isi-dropdown a:hover {
+  color: #fff !important;
+}
+.isi-dropdown {
+  position: absolute;
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color: #f9f9f9;
+}
+.isi-dropdown li {
+  text-decoration: none;
+}
+
+.isi-dropdown a {
+  color: #3c3c3c !important;
+}
+
+.isi-dropdown a:hover {
+  color: #232323 !important;
+  background: #f3f3f3 !important;
+}
+.title-page {
+  margin-left: 10px;
+}
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+.card-headline {
+  color: var(--third-color);
+  border: 0px;
+}
+.card {
+  border-radius: 20px;
+}
+.body-headline {
+  padding: 3rem 0rem 1rem 0rem;
+}
+.headline-img {
+  width: 85%;
+}
+.btn-card {
+  background-color: var(--third-color);
+  color: #fff;
+}
+.btn-detail {
+  margin-top: 10px;
+}
+/* .carousel-main {
+  height: 559px;
+}
+.carousel-main img {
+  height: 600px;
+} */
+footer {
+  margin-top: 50px;
+  background: var(--first-color);
+  padding: 20px 20px;
+  width: 100%;
+  color: white;
+}
+.footer-2 {
+  text-align: center;
+}
+.footer-2 a {
+  display: inline-block;
+  font-size: 30px;
+  color: #fff;
+  margin: 0 10px;
+  margin-top: 15px;
+  min-height: 44px;
+  min-width: 44px;
+}
+.carousel-dtl {
+  max-width: 900px;
+}
+.specs-table {
+  max-width: 900px;
+}
+.model-table {
+  max-width: 600px;
+}
+.calculator {
+  margin-top: 50px;
+  font-weight: bold;
+}
+.title-page {
+  text-align: center;
+}
+.youtube-container {
+  width: 100%;
+  max-width: 700px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 380px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.hero__inner {
+  margin: 0 auto;
+  max-width: 800px;
+}
+.hero__inner h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: right;
+  padding-top: 10px;
+  margin-right: 50px;
+}
+.hero__tagline {
+  color: #fff;
+  margin-top: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 11px;
+  font-weight: 300;
+  text-align: justify;
+}
+.footer-3 {
+  text-align: right;
+}
+.footer-1 a {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  margin: 0 10px;
+  margin-top: 7px;
+  min-height: 44px;
+  min-width: 44px;
+}
+.list-footer {
+  list-style-type: none;
+}
+.car-products {
+  margin-top: 20px;
+}
+.email-contact a, .whatsapp-contact a {
+  display: inline-block;
+  font-size: 23px;
+  color: #fff;
+  min-height: 44px;
+  min-width: 44px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Times New Roman';
+  text-decoration: none;
+  padding: 2px;
+}
